@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FetchRewardsExercise</string>
+
+    <!-- Hiring list screen -->
+    <string name="hiring_list_row_header">List # %s</string>
+    <string name="hiring_list_loading">Data is loading. Please wait…</string>
+
+
+</resources>
