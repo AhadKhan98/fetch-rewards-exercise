@@ -46,6 +46,6 @@ private fun ListIdHeader(id: Int) {
 
 @Composable
 private fun HiringListCell(item: HiringListItem) {
-    Text(text = item.name ?: "EMPTY")
+    Text(text = item.name.orEmpty())
 }
 

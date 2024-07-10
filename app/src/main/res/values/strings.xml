@@ -4,6 +4,8 @@
     <!-- Hiring list screen -->
     <string name="hiring_list_row_header">List # %s</string>
     <string name="hiring_list_loading">Data is loading. Please wait…</string>
+    <string name="hiring_list_unknown_error">Unknown error. Please try again</string>
+    <string name="hiring_list_retry">Retry</string>
 
 
 </resources>

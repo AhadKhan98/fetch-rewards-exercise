@@ -24,10 +24,10 @@ fun HiringListErrorMessage(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(4.dp)
     ) {
-        val errorMessage = message ?: stringResource(id = R.string.app_name)
+        val errorMessage = message ?: stringResource(id = R.string.hiring_list_unknown_error)
         Text(text = errorMessage, textAlign = TextAlign.Center)
         Button(onClick = onRetryFetch) {
-            Text(text = "Retry")
+            Text(text = stringResource(id = R.string.hiring_list_retry))
         }
     }
 }
